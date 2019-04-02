@@ -2,7 +2,7 @@
 int add2numbers(int m, int n)
 {
   int c;
-  c=a+b;
+  c=m+n;
   return c;
 }
 void main()
