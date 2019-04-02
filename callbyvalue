@@ -1,0 +1,15 @@
+#include<stdio.h>
+int add2numbers(int m, int n)
+{
+  int c;
+  c=a+b;
+  return c;
+}
+void main()
+{
+  int a,b,c;
+  printf("Enter the 2 numbers:");
+  scanf("%d%d",&a,&b);
+  c=add2numbers(a,b);
+  printf("Sum=%d+%d=%d",a,b,c);
+}
