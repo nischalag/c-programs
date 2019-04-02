@@ -1,12 +1,12 @@
 #include<stdio.h>
-int a,b,c;
-int add2numbers(a,b,*c)
+int add2numbers(int a,int b,int *c)
 {
   *c=a+b;
-  return c;
+  return *c;
 }
 void main()
 {
+ int a,b,c;
   printf("Enter 2 numbers to be added:");
   scanf("%d%d",&a,&b);
   c=add2numbers(a,b,&c);
