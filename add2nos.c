@@ -1,4 +1,7 @@
 #include<stdio.h>
+void getinput();
+void add(int x, int y);
+void output(int sum);
 void getinput()
 {
   int a,b;
