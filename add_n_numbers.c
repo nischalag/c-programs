@@ -5,19 +5,19 @@ void outputarray(int sum);
 void inputarray()
 {
   int n, a[20];
-  printf("Enter the number of elements");
-  scanf("%d",n);
-  printf("Enter %d elements",n);
-  for(int i=0,i<n,i++)
+  printf("Enter the number of elements:");
+  scanf("%d",&n);
+  printf("Enter %d elements:\n",n);
+  for(int i=0;i<n;i++)
   {
-    scanf("%d",a[i]);
+    scanf("%d",&a[i]);
   }
   sumarray(n,a);
 }
 void sumarray(int n, int a[20])
 {
   int sum=0;
-  for(i=0;i<n;i++)
+  for(int i=0;i<n;i++)
   {
     sum=sum+a[i];
   }
@@ -25,7 +25,7 @@ void sumarray(int n, int a[20])
 }
 void outputarray(int sum)
 {
-  printf("Sum=",sum);
+  printf("Sum=%d",sum);
 }
 int main()
 {
